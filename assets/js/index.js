@@ -46,7 +46,7 @@ function getUserInof() {
 function rendreAvatar(user) {
     //1.用户名(昵称优先 没有用username)
     var name = user.nickname || user.username;
-    $('#welcome').html('欢迎$nbsp;$nbsp;' + name);
+    $('#welcome').html('欢迎&nbsp;&nbsp;' + name);
     //2.用户头像
     if (user.user_pic !== null) {
         //有头像
