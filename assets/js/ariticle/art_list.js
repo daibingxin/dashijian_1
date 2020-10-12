@@ -23,7 +23,7 @@ $(function () {
         cate_id: "",
         state: ""
     }
-    // 初始化文章列表
+    //2. 初始化文章列表
     initTable();
     function initTable() {
         $.ajax({
